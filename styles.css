@@ -1,4 +1,4 @@
-
+/* General body settings */
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #111;
@@ -7,44 +7,96 @@ body {
     padding: 0;
 }
 
+/* Header Section */
 .site-header {
-    background-color: #333;
-    padding: 20px;
-}
-
-.site-title {
-    font-size: 2rem;
-    text-align: center;
-}
-
-.hero-section {
-    padding: 50px 0;
     background-color: #222;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.hero-title {
+.site-header h1 {
     font-size: 3rem;
-    text-align: center;
-    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
-.hero-buttons {
-    text-align: center;
+/* Navigation */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
 }
 
-.btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin: 5px;
+.navbar a {
+    color: #fff;
+    font-size: 1.2rem;
     text-decoration: none;
-    color: white;
-    background-color: #00ff00;
-    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.contact-section {
-    padding: 50px 0;
+/* Hero Section */
+.hero-section {
     background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-section h2 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-section .cta-button {
+    background-color: #00ff00;
+    color: #111;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Stream Section */
+.stream-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.twitch-embed iframe {
+    width: 100%;
+    height: 600px;
+}
+
+/* Social Section */
+.social-section {
+    background-color: #222;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #00ff00;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #333;
+    text-align: center;
+    padding: 40px 20px;
 }
 
 .contact-email {
@@ -53,8 +105,10 @@ body {
     text-decoration: none;
 }
 
-footer {
-    background-color: #111;
-    padding: 20px 0;
+/* Footer */
+.site-footer {
+    background-color: #222;
+    color: white;
     text-align: center;
+    padding: 20px;
 }
