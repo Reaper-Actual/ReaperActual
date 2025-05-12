@@ -1,0 +1,36 @@
+/* Reset default browser margins */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111; /* Dark background for gaming vibe */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #00ff00; /* Neon green for header */
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
