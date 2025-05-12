@@ -1,19 +1,76 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Reaper Actual - Content Creator">
-    <meta name="keywords" content="Reaper Actual, Twitch, Content Creator, Gaming, Live Stream">
-    <title>Reaper Actual</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Reaper Actual - Content Creator and Twitch Streamer. Watch live streams, follow on social media, and discover recommended streamers.">
+    <meta name="keywords" content="Reaper Actual, Twitch streamer, content creator, gaming, live stream">
+    <title>Reaper Actual - Content Creator & Streamer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/logo.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Reapers House!</h1>
-    </header>
-    <section>
-        <p>Content Creator</p>
-    </section>
+    <div class="site-wrapper">
+        <header class="site-header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="site-branding">
+                        <div class="logo-container">
+                            <video id="logo-video" autoplay loop muted playsinline>
+                                <source src="images/logo.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <h1 class="site-title">Reaper Actual</h1>
+                    </div>
+                    <nav class="main-navigation">
+                        <ul id="primary-menu" class="menu">
+                            <li><a href="#home" class="active">Home</a></li>
+                            <li><a href="#stream">Stream</a></li>
+                            <li><a href="#social">Connect</a></li>
+                            <li><a href="#follow">Who To Follow</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="site-main">
+            <section id="home" class="hero-section">
+                <div class="hero-content">
+                    <div class="container">
+                        <h2 class="hero-title">Welcome to Reaper Actual</h2>
+                        <p class="hero-subtitle">Content Creator & Twitch Streamer</p>
+                        <div class="hero-buttons">
+                            <a href="#stream" class="btn btn-primary">Watch Stream</a>
+                            <a href="#social" class="btn btn-secondary">Connect</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Contact</h2>
+                        <p>Get in touch for business inquiries</p>
+                    </div>
+                    <div class="contact-content">
+                        <p>For sponsorships and business opportunities:</p>
+                        <a href="mailto:ReaperActual.TTV@gmail.com" class="contact-email">ReaperActual.TTV@gmail.com</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-branding">
+                    <h2 class="footer-title">Reaper Actual</h2>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
